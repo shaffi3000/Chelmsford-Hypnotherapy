@@ -1,0 +1,123 @@
+/* navbar */
+
+#navbar li a {
+    color: grey;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+#navbar li a:hover {
+    color: grey;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+
+/* head jumbo */
+
+#headerImg img {
+    height: 200px;
+    border-radius: 20%;
+}
+
+#headJumbo {
+    margin-top: -60px;
+    box-shadow: 1px 1px 5px grey;
+    background-color: peachpuff;
+}
+
+
+#services li {
+    color: darkslategrey;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#services li:hover {
+    color: darkslategrey;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+/* covid */
+
+
+#covid h3, #covid h5 {
+    margin-top: 10px;
+    color: red;
+}
+
+#contactNum {
+    font-size: 1.2rem;
+}
+
+#covid p {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+#covid {
+    background-color: lightgray;
+    box-shadow: 1px 1px 5px grey;
+    margin: 20px auto;
+}
+
+
+/* covid page */
+
+#covidMore {
+    margin: 5px;
+}
+
+#covidInfo {
+    margin: 40px auto;
+}
+
+
+/* mainpage video */
+
+iframe {
+    margin: 20px auto;
+    box-shadow: grey 1px 1px 5px;
+}
+
+
+/* hide text class */
+
+.textHide {
+    display: none;
+}
+
+
+/* main section */
+
+.mainCol {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#homePImages img {
+    height: 200px;
+    width: 180px;
+}
+
+
+/* cost */
+
+#cost {
+    margin-top: 50px;
+}
+
+#cost h4 {
+    color: royalblue;
+}
+
+#moreInfo h4 {
+    color: royalblue;
+    margin-top: 20px;
+}
+
+
+
