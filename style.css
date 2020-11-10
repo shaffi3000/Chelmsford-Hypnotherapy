@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata&display=swap');
+
 /* navbar */
 
 #navbar li a {
-    color: grey;
+    color: white;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
 
 #navbar li a:hover {
-    color: grey;
+    color: whitesmoke;
     font-size: 1.4rem;
     letter-spacing: 1px;
+}
+
+.nav {
+    background-color: #379683;
 }
 
 
@@ -21,23 +27,46 @@
 }
 
 #headJumbo {
-    margin-top: -60px;
+    margin-top: -40px;
     box-shadow: 1px 1px 5px grey;
-    background-color: peachpuff;
+    background-color: #05386b;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+#headJumbo h1 {
+    font-size: 3.2rem;
+}
+
+#headJumbo h3 {
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+#headJumbo h6 {
+    margin: 20px;
+    font-size: 1.3rem;
 }
 
 
 #services li {
-    color: darkslategrey;
+    color: white;
     display: inline-block;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 #services li:hover {
-    color: darkslategrey;
     display: inline-block;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+}
+
+#headJumbo hr{
+    border: whitesmoke solid 1px;
+    width: 90%;
 }
 
 
@@ -59,7 +88,7 @@
 }
 
 #covid {
-    background-color: lightgray;
+    background-color: #8EE4Af;
     box-shadow: 1px 1px 5px grey;
     margin: 20px auto;
 }
@@ -84,6 +113,31 @@ iframe {
 }
 
 
+/* ready for change */
+
+#intro {
+    font-family: 'Abel', sans-serif;
+    
+}
+
+#intro h3 {
+    color: #05386b;
+    font-weight: bold;
+}
+
+#intro h6 {
+    color: #379683;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#teleNums {
+    color: #05386b;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
 /* hide text class */
 
 .textHide {
@@ -103,6 +157,15 @@ iframe {
     width: 180px;
 }
 
+#mainSec h3 {
+    color: #05386b;
+}
+
+#mainSec .btn {
+    background-color: #379683;
+    border: none;
+}
+
 
 /* cost */
 
@@ -110,14 +173,172 @@ iframe {
     margin-top: 50px;
 }
 
-#cost h4 {
-    color: royalblue;
+#moreInfo h2 {
+    color: #05386b;
 }
 
+#cost h4 {
+    color: #379683;
+}
+
+
 #moreInfo h4 {
-    color: royalblue;
+    color: #379683;
     margin-top: 20px;
 }
 
 
 
+/* footer */
+
+#footer {
+    background-color: #05386b;
+    color: white;
+    padding: 50px 0;
+    width: 50%;
+    margin-top: 100px;
+}
+
+
+
+
+/* about pagge */
+
+#aboutJumbo {
+    background-color: #05386b;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+#aboutIntro img {
+    height: 250px
+}
+
+#aboutList li {
+    margin: 0 15px;
+    display: inline-flex;
+    list-style: square;
+}
+
+#aboutImg img {
+    height: 250px;
+}
+
+#aboutIntro {
+    background-color: #379683;
+    padding: 20px;
+    color: white;
+}
+
+#background {
+    margin-bottom: 50px;
+}
+
+#background h1 {
+    text-align: center;
+    margin: 30px;
+    color: #05386b;
+}
+
+#background h3 {
+    margin: 20px 0;
+}
+
+#missionS {
+    color: #379683;
+    margin: 20px 0;
+}
+
+#mission h2{
+    margin: 40px 0;
+}
+
+
+
+
+
+
+/* anxiety */
+#anxStress {
+    color: #379683;
+    text-align: center;
+}
+
+#doYou {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#anxMain img {
+    height: 200px;
+}
+
+#anxMain h3 {
+    color: #05386b;
+    margin: 20px 0;
+}
+
+#h5Anx {
+    color: #379683;
+}
+
+#phobia {
+    margin-top: 40px;
+}
+
+
+#anx img, #stress img, #phobia img {
+    height: 150px;
+    width: 200px;
+}
+
+.rows {
+    margin-top: 40px;
+}
+
+#getInTouchBtn {
+    margin-bottom: 20px;
+}
+
+
+#freeRes {
+    background-color: #379683;
+    color: white;
+    padding: 10px 0;
+}
+
+
+
+
+/* contact page */
+
+
+#contactMe h2 {
+    margin: 10px 0;
+    color: #379683;
+}
+
+#contactMe a {
+    font-size: 1.4rem;
+    color: #05386b;
+}
+
+#contactMe span {
+    color: #379683;
+}
+
+.colC {
+    margin-top: 30px;
+}
+
+
+/* weight loss */
+
+#weightL img {
+    height: 180px;
+    margin: 5px 10px;
+}
+
+#weightL p {
+    font-size: 1.1rem;
+}
